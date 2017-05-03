@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Real time ray tracing with OpenCL/bvh.cpp"
+            timestampString = "514237934.517797"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "RecursiveCreateBVH(vector&lt;struct BBox*&gt; &amp;BBoxList, int iter)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Real time ray tracing with OpenCL/bvh.cpp"
+            timestampString = "514156520.2993"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "RecursiveCreateBVH_GPU(struct GPU_BVHNode *OutputArr, struct BVHNode *root, cl_float3 *verts, cl_float3 *norms, cl_float3 *colors, vector&lt;glm::vec3&gt; &amp;verts_in, vector&lt;glm::vec3&gt; &amp;norms_in, vector&lt;glm::vec3&gt; &amp;colors_in, unsigned int &amp;node_id, unsigned int &amp;tri_id)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

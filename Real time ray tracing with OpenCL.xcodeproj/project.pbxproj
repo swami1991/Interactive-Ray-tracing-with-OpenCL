@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360301901E95B19800A42C57 /* scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3603018E1E95B19700A42C57 /* scene.cpp */; };
+		360301931E95B25F00A42C57 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360301921E95B25F00A42C57 /* OpenGL.framework */; };
+		362784341E9D057B00D0326E /* bvh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 362784321E9D057B00D0326E /* bvh.cpp */; };
+		362784361E9E8EF000D0326E /* kernel_bvh.cl in Sources */ = {isa = PBXBuildFile; fileRef = 362784351E9E8EF000D0326E /* kernel_bvh.cl */; };
+		3627844E1EA87B2700D0326E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3627844D1EA87B2700D0326E /* GLUT.framework */; };
+		366B20C51E8AE21C009C77BA /* grids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 366B20C31E8AE21C009C77BA /* grids.cpp */; };
+		36EA21141E837E8E005C4B69 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36EA21131E837E8E005C4B69 /* OpenCL.framework */; };
+		36EA21191E837F33005C4B69 /* kernel_grid.cl in Sources */ = {isa = PBXBuildFile; fileRef = 36EA21151E837F33005C4B69 /* kernel_grid.cl */; };
+		36EA211A1E837F33005C4B69 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EA21161E837F33005C4B69 /* main.cpp */; };
+		36EA21201E846C96005C4B69 /* objloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EA211E1E846C96005C4B69 /* objloader.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		36EA21111E837E5E005C4B69 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.opencl;
+			fileType = sourcecode.opencl;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# <com.apple.compilers.opencl>\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36EA20FD1E837D9D005C4B69 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3603018E1E95B19700A42C57 /* scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scene.cpp; sourceTree = "<group>"; };
+		3603018F1E95B19800A42C57 /* scene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scene.hpp; sourceTree = "<group>"; };
+		360301921E95B25F00A42C57 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		362784321E9D057B00D0326E /* bvh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bvh.cpp; sourceTree = "<group>"; };
+		362784331E9D057B00D0326E /* bvh.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = bvh.hpp; sourceTree = "<group>"; };
+		362784351E9E8EF000D0326E /* kernel_bvh.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = kernel_bvh.cl; sourceTree = "<group>"; };
+		3627844D1EA87B2700D0326E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		3627844F1EA934E600D0326E /* glfw3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glfw3.h; sourceTree = "<group>"; };
+		362784501EA9371500D0326E /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		362784511EAA95EB00D0326E /* fragmentshader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragmentshader; sourceTree = "<group>"; };
+		362784521EAA95EB00D0326E /* vertexshader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertexshader; sourceTree = "<group>"; };
+		366B20C31E8AE21C009C77BA /* grids.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = grids.cpp; sourceTree = "<group>"; };
+		366B20C41E8AE21C009C77BA /* grids.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = grids.hpp; sourceTree = "<group>"; };
+		36EA20FF1E837D9D005C4B69 /* Real time ray tracing with OpenCL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Real time ray tracing with OpenCL"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EA21131E837E8E005C4B69 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		36EA21151E837F33005C4B69 /* kernel_grid.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = kernel_grid.cl; sourceTree = "<group>"; };
+		36EA21161E837F33005C4B69 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = "<group>"; };
+		36EA211D1E846C34005C4B69 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
+		36EA211E1E846C96005C4B69 /* objloader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = objloader.cpp; sourceTree = "<group>"; };
+		36EA211F1E846C96005C4B69 /* objloader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = objloader.hpp; sourceTree = "<group>"; };
+		36EA21221E846CF6005C4B69 /* struct.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = struct.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36EA20FC1E837D9D005C4B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3627844E1EA87B2700D0326E /* GLUT.framework in Frameworks */,
+				360301931E95B25F00A42C57 /* OpenGL.framework in Frameworks */,
+				36EA21141E837E8E005C4B69 /* OpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		360301911E95B25F00A42C57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3627844D1EA87B2700D0326E /* GLUT.framework */,
+				360301921E95B25F00A42C57 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36EA20F61E837D9C005C4B69 = {
+			isa = PBXGroup;
+			children = (
+				36EA21131E837E8E005C4B69 /* OpenCL.framework */,
+				36EA21011E837D9D005C4B69 /* Real time ray tracing with OpenCL */,
+				36EA21001E837D9D005C4B69 /* Products */,
+				360301911E95B25F00A42C57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36EA21001E837D9D005C4B69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36EA20FF1E837D9D005C4B69 /* Real time ray tracing with OpenCL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36EA21011E837D9D005C4B69 /* Real time ray tracing with OpenCL */ = {
+			isa = PBXGroup;
+			children = (
+				36EA21151E837F33005C4B69 /* kernel_grid.cl */,
+				362784351E9E8EF000D0326E /* kernel_bvh.cl */,
+				36EA211D1E846C34005C4B69 /* glm */,
+				36EA21161E837F33005C4B69 /* main.cpp */,
+				362784511EAA95EB00D0326E /* fragmentshader */,
+				362784521EAA95EB00D0326E /* vertexshader */,
+				3603018E1E95B19700A42C57 /* scene.cpp */,
+				3603018F1E95B19800A42C57 /* scene.hpp */,
+				366B20C31E8AE21C009C77BA /* grids.cpp */,
+				366B20C41E8AE21C009C77BA /* grids.hpp */,
+				36EA211E1E846C96005C4B69 /* objloader.cpp */,
+				36EA211F1E846C96005C4B69 /* objloader.hpp */,
+				36EA21221E846CF6005C4B69 /* struct.hpp */,
+				362784501EA9371500D0326E /* glew.h */,
+				3627844F1EA934E600D0326E /* glfw3.h */,
+				362784321E9D057B00D0326E /* bvh.cpp */,
+				362784331E9D057B00D0326E /* bvh.hpp */,
+			);
+			path = "Real time ray tracing with OpenCL";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36EA20FE1E837D9D005C4B69 /* Real time ray tracing with OpenCL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EA21061E837D9D005C4B69 /* Build configuration list for PBXNativeTarget "Real time ray tracing with OpenCL" */;
+			buildPhases = (
+				36EA20FB1E837D9D005C4B69 /* Sources */,
+				36EA20FC1E837D9D005C4B69 /* Frameworks */,
+				36EA20FD1E837D9D005C4B69 /* CopyFiles */,
+			);
+			buildRules = (
+				36EA21111E837E5E005C4B69 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = "Real time ray tracing with OpenCL";
+			productName = "Real time ray tracing with OpenCL";
+			productReference = 36EA20FF1E837D9D005C4B69 /* Real time ray tracing with OpenCL */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36EA20F71E837D9C005C4B69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Swaminathan Ramachandran";
+				TargetAttributes = {
+					36EA20FE1E837D9D005C4B69 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 36EA20FA1E837D9C005C4B69 /* Build configuration list for PBXProject "Real time ray tracing with OpenCL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36EA20F61E837D9C005C4B69;
+			productRefGroup = 36EA21001E837D9D005C4B69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36EA20FE1E837D9D005C4B69 /* Real time ray tracing with OpenCL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36EA20FB1E837D9D005C4B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362784361E9E8EF000D0326E /* kernel_bvh.cl in Sources */,
+				362784341E9D057B00D0326E /* bvh.cpp in Sources */,
+				360301901E95B19800A42C57 /* scene.cpp in Sources */,
+				36EA211A1E837F33005C4B69 /* main.cpp in Sources */,
+				36EA21201E846C96005C4B69 /* objloader.cpp in Sources */,
+				36EA21191E837F33005C4B69 /* kernel_grid.cl in Sources */,
+				366B20C51E8AE21C009C77BA /* grids.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		36EA21041E837D9D005C4B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		36EA21051E837D9D005C4B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36EA21071E837D9D005C4B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				OPENCL_COMPILER_VERSION = CL1.2;
+				OTHER_LDFLAGS = (
+					"-lglfw",
+					"-lGLEW",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36EA21081E837D9D005C4B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				OPENCL_COMPILER_VERSION = CL1.2;
+				OTHER_LDFLAGS = (
+					"-lglfw",
+					"-lGLEW",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36EA20FA1E837D9C005C4B69 /* Build configuration list for PBXProject "Real time ray tracing with OpenCL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EA21041E837D9D005C4B69 /* Debug */,
+				36EA21051E837D9D005C4B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36EA21061E837D9D005C4B69 /* Build configuration list for PBXNativeTarget "Real time ray tracing with OpenCL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EA21071E837D9D005C4B69 /* Debug */,
+				36EA21081E837D9D005C4B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36EA20F71E837D9C005C4B69 /* Project object */;
+}
